@@ -1,10 +1,10 @@
 package com.unab.banca.Controller;
 import com.unab.banca.Models.Cliente;
-import com.unab.banca.Security.Hash;
+//import com.unab.banca.Security.Hash;
 import com.unab.banca.Dao.ClienteDao;
 import com.unab.banca.Service.ClienteService;
 import java.util.List;
-import javax.validation.Valid;
+//import javax.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
