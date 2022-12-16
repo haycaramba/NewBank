@@ -30,10 +30,11 @@ public class Transaccion implements Serializable{
  private String tipo_transaccion;
  @ManyToOne
  @JoinColumn(name = "id_cuenta")
- private Spring id_cuenta;
+ private Transaccion transaccion;
  @Override
  public String toString(){
-    return "Transaccion [id_transaccion=" + id_transaccion +", fecha_transaccion="+ fecha_transaccion + ", valor_transaccion ="+valor_transaccion+", tipo_transaccion="+tipo_transaccion+" ]";
+    return "Transaccion [id_transaccion=" + id_transaccion +", fecha_transaccion="
+    + fecha_transaccion + ", valor_transaccion ="+valor_transaccion+", tipo_transaccion="+tipo_transaccion+" ]";
  }
 }
 
